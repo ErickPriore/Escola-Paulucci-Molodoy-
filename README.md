@@ -120,13 +120,3 @@ Registrar devolução
 Consultar livros disponíveis
 
 Consultar empréstimos em atraso
-
-🚨 Riscos e Restrições
-
-Prazo curto
-
-Equipe com pouca experiência
-
-Resistência à mudança
-
-Computadores antigos
