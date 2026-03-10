@@ -1,4 +1,4 @@
-# Escola-Paulucci-Molodoy-
+# Escola-Paulucci-Molodoy (Grupo Molodoy)
 BiblioDesk – Sistema de Controle de Empréstimos
 
 Sistema desktop em Java para controle de empréstimos de uma biblioteca escolar de pequeno porte.
@@ -7,7 +7,7 @@ Sistema desktop em Java para controle de empréstimos de uma biblioteca escolar 
 
 Kauan • Matheus • Vinicius • Gustavo • Guilherme • Erick
 
-Versão: 1.0
+Versão: 1.5
 Data: Março/2026
 
 🏫 Contexto
@@ -53,13 +53,13 @@ Cadastro de alunos
 
 Cadastro de livros
 
-Registro de empréstimos
+Registro de multas
 
 Registro de devoluções
 
 Consulta de livros disponíveis
 
-Consulta de empréstimos em atraso
+Consulta de multas em atraso
 
 Relatórios simples em tela
 
@@ -93,9 +93,9 @@ Listar empréstimos ativos
 
 👤 Máximo de 3 livros por aluno
 
-⏳ Prazo padrão de 7 dias
+⏳ Prazo padrão de 30 dias
 
-⚠ Empréstimo entra em atraso após 7 dias
+⚠ Empréstimo entra em atraso após 30 dias
 
 🚫 Não é permitido excluir aluno com empréstimo ativo
 
@@ -105,7 +105,9 @@ Aluno (id, nome, matrícula, telefone, status)
 
 Livro (id, título, autor, código, status)
 
-Empréstimo (id, dataEmpréstimo, dataPrevista, dataDevolução, status)
+Multa (atrasos e danificado.)
+
+Consulta (id, dataEmpréstimo, dataPrevista, dataDevolução, status)
 
 🔄 Principais Casos de Uso
 
@@ -113,10 +115,10 @@ Cadastrar aluno
 
 Cadastrar livro
 
-Registrar empréstimo
+Registrar multas
 
 Registrar devolução
 
 Consultar livros disponíveis
 
-Consultar empréstimos em atraso
+Consultar multas em atraso e danos
